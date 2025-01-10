@@ -13,6 +13,6 @@ func main() {
 	if err != nil {
 		log.Fatal("Error loading .env file")
 	}
+
 	fmt.Println(os.Getenv("TEST"))
-	// now do something with s3 or whatever
 }
